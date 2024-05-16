@@ -1,0 +1,15 @@
+{
+  "name": "news-homepage-main-good-restart",
+  "version": "1.0.0",
+  "description": "![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manuel Francisco",
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint": "^16.5.0",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}

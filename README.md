@@ -92,3 +92,9 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+ 
+
+
+ 
+ ## to run stylelint.config.json : npx stylelint --config  stylelint.config.json  "C:/Users/ciesa/Desktop/Web Projects/manuel-francisco.github.io-main - corrections/news-homepage-main good restart/css/*.css"
+ 
