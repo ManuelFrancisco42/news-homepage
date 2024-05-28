@@ -155,7 +155,7 @@ p {
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-
+*
 .nav-center {
   width: 100%;
   max-width: var(--max-width);
