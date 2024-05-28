@@ -1,185 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
     <title>Frontend Mentor | New Homepage</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <div class="container">
-     <!-- 
-      ======
- -----------------------  Navbar -----------------------
-      ======
-      -->
-    <nav class="nav" id="nav">
-      <div class="nav-center">
+</head>
+<body>
+    <!-- ====== Navbar ====== -->
+    <header>
+        <nav class="nav" id="nav">
+            <div class="nav-center">
+                <!-- nav header -->
+                <div class="nav-header">
+                    <img src="./assets/images/logo.svg" class="nav-logo" alt="nav logo" />
+                    <button class="nav-btn" id="nav-btn">
+                        <img src="./assets/images/icon-menu.svg" class="nav-logo" alt="nav logo" />
+                    </button>
+                </div>
+                <!-- nav-links -->
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Categories</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-        <!-- nav header -->
-        <div class="nav-header">
-          <img src="./assets/images/logo.svg" class="nav-logo" alt="nav logo"/>
-          <button class="nav-btn" id="nav-btn">
-            <img src="./assets/images/icon-menu.svg" class="nav-logo" alt="nav logo"/>
-          </button>
-        </div>
-
-     <!-- 
-      ======
- -----------------------  nav-links -----------------------
-      ======
-      -->
-        <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">New</a></li>
-          <li><a href="#">Popular</a></li>
-          <li><a href="#">Trending</a></li>
-          <li><a href="#">Categories</a></li>
-        </ul>
-      </div>
-    </nav>
-      
-     <!-- 
-      ======
- -----------------------  sidebar -----------------------
-      ======
-      -->
+    <!-- ====== Sidebar ====== -->
     <aside class="sidebar" id="sidebar">
-      <div>
-        <button class="close-btn" id="close-btn">
-          <img src="./assets/images/icon-menu-close.svg" class="nav-logo" alt="nav logo"/>
-        </button>
-      
-        <ul class="sidebar-links">
-
-          <li><a href="#">Home</a></li>
-          <li><a href="#">New</a></li>
-          <li><a href="#">Popular</a></li>
-          <li><a href="#">Trending</a></li>
-          <li><a href="#">Categories</a></li>
-
-        </ul>
-
-      </div>
+        <div>
+            <button class="close-btn" id="close-btn">
+                <img src="./assets/images/icon-menu-close.svg" class="nav-logo" alt="nav logo" />
+            </button>
+            <ul class="sidebar-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Categories</a></li>
+            </ul>
+        </div>
     </aside>
 
-     <!-- 
-      =============
----------------------- First Section  -----------------------
-      =============
-      -->
-      <section class="section-display">
-        <div class="wrapper main-wrapper">
-          <picture>
-            <source
-              media="(min-width: 768px)"
-              srcset="./assets/images/image-web-3-desktop.jpg"
-            />
-            <img
-              src="./assets/images/image-web-3-mobile.jpg"
-              alt="desktop image"
-            />
-          </picture>
-  
-          <article class="text-info">
-            <h1 class="info-title">The Bright Future of Web 3.0?</h1>
-            <div class="info-content">
-              <p>
-                We dive into the next evolution of the web that claims to put the
-                power of the platforms back into the hands of the people. But is
-                it really fulfilling its promise?
-              </p>
-              <button class="btn">Read more</button>
+    <!-- ====== Main Content ====== -->
+    <main>
+        <!-- ====== First Section ====== -->
+        <section class="section-display">
+            <div class="wrapper main-wrapper">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="./assets/images/image-web-3-desktop.jpg" />
+                    <img src="./assets/images/image-web-3-mobile.jpg" alt="desktop image" />
+                </picture>
+                <article class="text-info">
+                    <h1 class="info-title">The Bright Future of Web 3.0?</h1>
+                    <div class="info-content">
+                        <p>
+                            We dive into the next evolution of the web that claims to put the
+                            power of the platforms back into the hands of the people. But is
+                            it really fulfilling its promise?
+                        </p>
+                        <button class="btn">Read more</button>
+                    </div>
+                </article>
             </div>
-          </article>
-        </div>
-  
-        <div class="new-box">
-          <h2 class="new-container-title">New</h2>
-          <article class="new-content">
-            <h3 class="new-content-title">Hydrogen VS Electric Cars</h3>
-            <p class="new-line">
-              Will hydrogen-fueled cars ever catch up to EVs?
-            </p>
-          </article>
-  
-          <article class="new-content">
-            <h3 class="new-content-title">The Downsides of AI Artistry</h3>
-            <p class="new-line">
-              What are the possible adverse effects of on-demand AI image
-              generation?
-            </p>
-          </article>
-  
-          <article class="new-content">
-            <h3 class="new-content-title">Is VC Funding Drying Up?</h3>
-            <p class="new-line">
-              Private funding by VC firms is down 50% YOY. We take a look at what
-              that means.
-            </p>
-          </article>
-        </div>
-      </section>
-    
-      <!-- 
-      =============
----------------------- Second Section  -----------------------
-      =============
-      -->
+            <div class="new-box">
+                <h2 class="new-container-title">New</h2>
+                <article class="new-content">
+                    <h3 class="new-content-title">Hydrogen VS Electric Cars</h3>
+                    <p class="new-line">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                </article>
+                <article class="new-content">
+                    <h3 class="new-content-title">The Downsides of AI Artistry</h3>
+                    <p class="new-line">What are the possible adverse effects of on-demand AI image generation?</p>
+                </article>
+                <article class="new-content">
+                    <h3 class="new-content-title">Is VC Funding Drying Up?</h3>
+                    <p class="new-line">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                </article>
+            </div>
+        </section>
 
-      <section class="sdisplay-cards">
-        <article class="new-game-info new-game-retro">
-          <img src="./assets/images/image-retro-pcs.jpg" alt="retro image" />
-          <div class="new-top-info">
-            <span>01</span>
-            <h3>Reviving Retro PCs</h3>
-            <p>What happens when old PCs are given modern upgrades?</p>
-          </div>
-        </article>
-  
-        <article class="new-game-info new-game-laptops">
-          <img src="./assets/images/image-top-laptops.jpg" alt="laptops image" />
-          <div class="new-top-info">
-            <span>02</span>
-            <h3>Top 10 Laptops of 2022</h3>
-            <p>Our best picks for various needs and budgets.</p>
-          </div>
-        </article>
-  
-        <article class="new-game-info new-game-growth">
-          <img src="./assets/images/image-gaming-growth.jpg" alt="game image" />
-          <div class="new-top-info">
-            <span>03</span>
-            <h3>The Growth of Gaming</h3>
-            <p>How the pandemic has sparked fresh opportunities.</p>
-          </div>
-        </article>
-      </section>
-  
-        <!-- 
-      =============
----------------------- Attribution   (Footer)-----------------------
-      =============
-      -->
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Manuel Francisco</a>.
-      </div>
-    </div>
+        <!-- ====== Second Section ====== -->
+        <section class="sdisplay-cards">
+            <article class="new-game-info new-game-retro">
+                <img src="./assets/images/image-retro-pcs.jpg" alt="retro image" />
+                <div class="new-top-info">
+                    <span>01</span>
+                    <h3>Reviving Retro PCs</h3>
+                    <p>What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </article>
+            <article class="new-game-info new-game-laptops">
+                <img src="./assets/images/image-top-laptops.jpg" alt="laptops image" />
+                <div class="new-top-info">
+                    <span>02</span>
+                    <h3>Top 10 Laptops of 2022</h3>
+                    <p>Our best picks for various needs and budgets.</p>
+                </div>
+            </article>
+            <article class="new-game-info new-game-growth">
+                <img src="./assets/images/image-gaming-growth.jpg" alt="game image" />
+                <div class="new-top-info">
+                    <span>03</span>
+                    <h3>The Growth of Gaming</h3>
+                    <p>How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- ====== Footer ====== -->
+    <footer>
+        <div class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">Manuel Francisco</a>.
+        </div>
+    </footer>
+
     <script src="./js/script.js"></script>
-  </body>
+</body>
 </html>
