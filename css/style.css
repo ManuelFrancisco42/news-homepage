@@ -94,7 +94,6 @@ h3 {
   font-size: 1.25rem;
 }
 
-
 p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
@@ -155,8 +154,7 @@ p {
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-*
-.nav-center {
+* .nav-center {
   width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
@@ -428,8 +426,6 @@ article .btn:hover {
     grid-template-columns: repeat(3, 1fr);
     margin-top: 2rem;
   }
-
-
 }
 
 @media screen and (min-width: 768px) {
@@ -466,9 +462,7 @@ article .btn:hover {
     -webkit-box-align: center;
     align-items: center;
   }
-  
 }
-
 
 @media screen and (min-width: 992px) {
   .section-center {
@@ -484,7 +478,6 @@ article .btn:hover {
 .bg-grey {
   background: var(--clr-grey-10);
 }
-
 
 @media screen and (min-width: 800px) {
   h1 {
@@ -521,7 +514,7 @@ article .btn:hover {
 =============
 */
 .attribution {
-  position: fixed;
+  
   bottom: 1.33rem;
   width: 100%;
   font-size: 0.93rem;
